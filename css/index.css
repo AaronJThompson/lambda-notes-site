@@ -153,6 +153,15 @@ table {
   height: 0.1rem;
   background-color: black;
 }
+#top-bar .menu {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width: 40rem;
+  height: 50rem;
+  background-color: white;
+  border-radius: 1rem;
+}
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
